@@ -24,7 +24,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --windowed --name SNBoxSearch main.py
+          pyinstaller --onefile --windowed --name SNBoxSearch V7sn两种输出方式.py
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
